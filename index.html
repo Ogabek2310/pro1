@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stuttgart Atelier — Porsche muxlislari uchun konsept sayt</title>
+  <meta name="description" content="Porsche avtomobillariga bag'ishlangan premium konsept sayt: modellar, texnologiya, galereya va tarix. Muxlislar uchun norasmiy loyiha.">
+  <meta name="theme-color" content="#0f1115">
+  <meta property="og:title" content="Stuttgart Atelier — Porsche muxlislari uchun">
+  <meta property="og:description" content="Modellar, texnologiya, galereya va tarix — sokin, premium dizaynda.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/og.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+
+  <a class="skip-link" href="#modellar">Asosiy qismga o'tish</a>
+
+  <!-- PRELOADER -->
+  <div id="preloader" aria-hidden="true">
+    <div class="pre-mark">STUTTGART<span>ATELIER</span></div>
+    <div class="pre-bar"><i></i></div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="nav" class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Asosiy navigatsiya">
+    <div class="container">
+      <a class="navbar-brand wordmark" href="#top" aria-label="Stuttgart Atelier bosh sahifa">STUTTGART<span>ATELIER</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menyuni ochish">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#modellar">Modellar</a></li>
+          <li class="nav-item"><a class="nav-link" href="#texnologiya">Texnologiya</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galereya">Galereya</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tarix">Tarix</a></li>
+          <li class="nav-item"><a class="btn btn-ghost btn-sm magnet ms-lg-3" href="#aloqa">Aloqa</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <header class="hero" id="hero">
+      <div class="mesh" aria-hidden="true"><i></i><i></i><i></i></div>
+      <canvas id="particles" aria-hidden="true"></canvas>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="container hero-content" data-parallax="0.15">
+        <p class="eyebrow reveal">Muxlislar uchun norasmiy konsept</p>
+        <h1 class="display reveal" style="--d:.1s">Muhandislik,<br><em>go'zallik</em> bilan<br>uchrashganda.</h1>
+        <p class="lead-soft reveal" style="--d:.2s">Stuttgartdan chiqqan afsonaviy sport avtomobillari olamiga sokin va nafis nazar.</p>
+        <div class="d-flex flex-wrap gap-3 reveal" style="--d:.3s">
+          <a href="#modellar" class="btn btn-gold magnet">Modellarni ko'rish <i class="bi bi-arrow-right ms-2"></i></a>
+          <a href="#tarix" class="btn btn-ghost magnet">Tarixni o'qish</a>
+        </div>
+      </div>
+      <a href="#modellar" class="scroll-ind" aria-label="Pastga aylantirish"><span></span></a>
+    </header>
+
+    <!-- MODELLAR -->
+    <section id="modellar" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Avlodlar</p>
+          <h2 class="title">Modellar oilasi</h2>
+          <p class="muted">Har bir model o'z xarakteriga ega. Kartani ustiga olib boring.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="car-card" tabindex="0">
+              <div class="media g1">
+                <img src="img/911.jpg" alt="Porsche 911 sport kupe" loading="lazy" onerror="this.remove()">
+              </div>
+              <div class="car-info">
+                <h3>911</h3><p>Ikonik orqa dvigatelli kupe</p>
+                <ul class="specs"><li><b>385–650</b> o.k.</li><li><b>3.4</b> s 0–100</li></ul>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal" style="--d:.1s">
+            <article class="car-card" tabindex="0">
+              <div class="media g2">
+                <img src="img/taycan.jpg" alt="Porsche Taycan elektr sedan" loading="lazy" onerror="this.remove()">
+              </div>
+              <div class="car-info">
+                <h3>Taycan</h3><p>Elektr davrning sport sedani</p>
+                <ul class="specs"><li><b>408–761</b> o.k.</li><li><b>2.8</b> s 0–100</li></ul>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal" style="--d:.2s">
+            <article class="car-card" tabindex="0">
+              <div class="media g3">
+                <img src="img/cayenne.jpg" alt="Porsche Cayenne SUV" loading="lazy" onerror="this.remove()">
+              </div>
+              <div class="car-info">
+                <h3>Cayenne</h3><p>Kuch va qulaylik uyg'unligi</p>
+                <ul class="specs"><li><b>353–680</b> o.k.</li><li><b>3.8</b> s 0–100</li></ul>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-6 reveal">
+            <article class="car-card wide" tabindex="0">
+              <div class="media g4">
+                <img src="img/macan.jpg" alt="Porsche Macan kompakt SUV" loading="lazy" onerror="this.remove()">
+              </div>
+              <div class="car-info">
+                <h3>Macan</h3><p>Shahar uchun chaqqon SUV</p>
+                <ul class="specs"><li><b>265–440</b> o.k.</li><li><b>4.3</b> s 0–100</li></ul>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-12 col-lg-6 reveal" style="--d:.1s">
+            <article class="car-card wide" tabindex="0">
+              <div class="media g5">
+                <img src="img/718.jpg" alt="Porsche 718 Cayman" loading="lazy" onerror="this.remove()">
+              </div>
+              <div class="car-info">
+                <h3>718</h3><p>O'rta dvigatelli sof haydash zavqi</p>
+                <ul class="specs"><li><b>300–400</b> o.k.</li><li><b>4.4</b> s 0–100</li></ul>
+              </div>
+            </article>
+          </div>
+        </div>
+        <p class="note reveal">Ko'rsatkichlar taxminiy va konfiguratsiyaga qarab o'zgaradi.</p>
+      </div>
+    </section>
+
+    <!-- TEXNOLOGIYA -->
+    <section id="texnologiya" class="section stats">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Raqamlarda</p>
+          <h2 class="title">Texnologiya va ruh</h2>
+        </div>
+        <div class="row g-4 text-center">
+          <div class="col-6 col-lg-3 reveal"><div class="stat"><span class="num" data-count="1948">0</span><small>Birinchi avtomobil yili</small></div></div>
+          <div class="col-6 col-lg-3 reveal" style="--d:.1s"><div class="stat"><span class="num" data-count="340">0</span><small>Eng yuqori tezlik (km/s)</small></div></div>
+          <div class="col-6 col-lg-3 reveal" style="--d:.2s"><div class="stat"><span class="num" data-count="19">0</span><small>Le Mans umumiy g'alabalari</small></div></div>
+          <div class="col-6 col-lg-3 reveal" style="--d:.3s"><div class="stat"><span class="num" data-count="1000" data-suffix="+">0</span><small>Rivojlanish soatlari</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALEREYA -->
+    <section id="galereya" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Lavhalar</p>
+          <h2 class="title">Galereya</h2>
+          <p class="muted">Kattalashtirish uchun rasmni bosing.</p>
+        </div>
+        <div class="gallery">
+          <button class="g-item tall reveal g1" data-title="Tong chizig'i" aria-label="Rasmni kattalashtirish: Tong chizig'i"><img src="img/g1.jpg" alt="Tongda yo'lda sport avtomobili" loading="lazy" onerror="this.remove()"><span>Tong chizig'i</span></button>
+          <button class="g-item reveal g3" data-title="Aerodinamika" aria-label="Rasmni kattalashtirish: Aerodinamika" style="--d:.1s"><img src="img/g2.jpg" alt="Avtomobil yon silueti" loading="lazy" onerror="this.remove()"><span>Aerodinamika</span></button>
+          <button class="g-item wide reveal g5" data-title="Trek kuni" aria-label="Rasmni kattalashtirish: Trek kuni" style="--d:.2s"><img src="img/g3.jpg" alt="Poyga trekidagi avtomobil" loading="lazy" onerror="this.remove()"><span>Trek kuni</span></button>
+          <button class="g-item reveal g2" data-title="Salon" aria-label="Rasmni kattalashtirish: Salon"><img src="img/g4.jpg" alt="Avtomobil salon ichki ko'rinishi" loading="lazy" onerror="this.remove()"><span>Salon</span></button>
+          <button class="g-item tall reveal g4" data-title="Kechki shahar" aria-label="Rasmni kattalashtirish: Kechki shahar" style="--d:.1s"><img src="img/g5.jpg" alt="Kechqurun shahar ko'chasida avtomobil" loading="lazy" onerror="this.remove()"><span>Kechki shahar</span></button>
+          <button class="g-item reveal g1" data-title="G'ildirak" aria-label="Rasmni kattalashtirish: G'ildirak" style="--d:.2s"><img src="img/g6.jpg" alt="Yengil qotishmali g'ildirak yaqin plan" loading="lazy" onerror="this.remove()"><span>G'ildirak</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TARIX -->
+    <section id="tarix" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Yo'l xaritasi</p>
+          <h2 class="title">Tarix</h2>
+        </div>
+        <ol class="timeline">
+          <li class="tl-item reveal"><time>1931</time><div><h3>Asos solinadi</h3><p>Ferdinand Porsche Shtutgartda muhandislik ofisini ochadi.</p></div></li>
+          <li class="tl-item reveal"><time>1948</time><div><h3>Birinchi sport avtomobil</h3><p>356 modeli ishlab chiqarish tarixidagi birinchi Porsche nomini oladi.</p></div></li>
+          <li class="tl-item reveal"><time>1963</time><div><h3>911 paydo bo'ladi</h3><p>Frankfurt avtosalonida taqdim etilgan model afsonaga aylanadi.</p></div></li>
+          <li class="tl-item reveal"><time>1970</time><div><h3>Poygadagi birinchi Le Mans</h3><p>917 modeli markaning birinchi umumiy Le Mans g'alabasini keltiradi.</p></div></li>
+          <li class="tl-item reveal"><time>2019</time><div><h3>Elektr davr</h3><p>Taycan bilan marka to'liq elektr sport avtomobiliga qadam qo'yadi.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FIKRLAR -->
+    <section id="fikrlar" class="section stats">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Hamjamiyat</p>
+          <h2 class="title">Muxlislar fikri</h2>
+        </div>
+        <div id="quotes" class="carousel slide reveal" data-bs-ride="carousel" data-bs-interval="6000">
+          <div class="carousel-inner">
+            <div class="carousel-item active"><blockquote><p>“Rul ortida har bir burilish sezgi bilan bog'lanadi. Bu mashina emas, davomingiz.”</p><cite>— Jasur, Toshkent</cite></blockquote></div>
+            <div class="carousel-item"><blockquote><p>“Dizayn o'ttiz yildan keyin ham yangi ko'rinadi. Aynan shu uni noyob qiladi.”</p><cite>— Madina, Samarqand</cite></blockquote></div>
+            <div class="carousel-item"><blockquote><p>“Elektr Taycan ham Porsche ruhini saqlab qolgan. Bu meni hayratga soldi.”</p><cite>— Bekzod, Buxoro</cite></blockquote></div>
+          </div>
+          <div class="carousel-indicators position-static mt-4">
+            <button type="button" data-bs-target="#quotes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="1-fikr"></button>
+            <button type="button" data-bs-target="#quotes" data-bs-slide-to="1" aria-label="2-fikr"></button>
+            <button type="button" data-bs-target="#quotes" data-bs-slide-to="2" aria-label="3-fikr"></button>
+          </div>
+        </div>
+        <p class="note">Namunaviy matnlar. O'z fikrlaringiz bilan almashtiring.</p>
+      </div>
+    </section>
+
+    <!-- ALOQA -->
+    <section id="aloqa" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Bog'lanish</p>
+          <h2 class="title">Klubga qo'shiling</h2>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-7 reveal">
+            <form id="contactForm" novalidate>
+              <div class="mb-3">
+                <label for="name" class="form-label">Ismingiz</label>
+                <input type="text" class="form-control" id="name" required minlength="2" autocomplete="name">
+                <div class="invalid-feedback">Iltimos, ismingizni kiriting (kamida 2 harf).</div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required autocomplete="email">
+                <div class="invalid-feedback">To'g'ri email manzil kiriting.</div>
+              </div>
+              <div class="mb-3">
+                <label for="msg" class="form-label">Xabar</label>
+                <textarea class="form-control" id="msg" rows="4" required minlength="10"></textarea>
+                <div class="invalid-feedback">Xabar kamida 10 belgidan iborat bo'lsin.</div>
+              </div>
+              <button type="submit" class="btn btn-gold magnet">Yuborish <i class="bi bi-send ms-2"></i></button>
+              <div id="formOk" class="form-ok" role="status" aria-live="polite" hidden>Rahmat! Xabaringiz qabul qilindi.</div>
+            </form>
+          </div>
+          <div class="col-lg-5 reveal" style="--d:.1s">
+            <div class="info-box">
+              <h3>Uchrashuv joyi</h3>
+              <p><i class="bi bi-geo-alt"></i> Toshkent, O'zbekiston</p>
+              <p><i class="bi bi-clock"></i> Har shanba, 11:00</p>
+              <p><i class="bi bi-envelope"></i> hello@stuttgart-atelier.example</p>
+              <div class="map-ph" role="img" aria-label="Xarita uchun joy">Xarita (Google Maps iframe shu yerga)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        <div class="col-md-4"><div class="wordmark">STUTTGART<span>ATELIER</span></div></div>
+        <div class="col-md-4">
+          <ul class="list-inline mb-0 foot-links">
+            <li class="list-inline-item"><a href="#modellar">Modellar</a></li>
+            <li class="list-inline-item"><a href="#galereya">Galereya</a></li>
+            <li class="list-inline-item"><a href="#tarix">Tarix</a></li>
+            <li class="list-inline-item"><a href="#aloqa">Aloqa</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 text-md-end social">
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="Telegram"><i class="bi bi-telegram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+      <p class="disclaimer">Norasmiy muxlislar loyihasi. Porsche nomi va belgilari tegishli egalariga tegishli; sayt Porsche AG bilan bog'liq emas.</p>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="modal fade" id="lightbox" tabindex="-1" aria-labelledby="lbTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h2 class="modal-title fs-5" id="lbTitle"></h2>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Yopish"></button>
+        </div>
+        <div class="modal-body"><div class="lb-media" id="lbMedia"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
